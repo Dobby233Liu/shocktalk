@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Shocktalk!</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+		<link rel="stylesheet" href="./assets/css/overrides.css">
+		<link rel="stylesheet" href="./assets/css/main.css">
+		<link rel="icon" type="image/x-icon" href="./favicon2.ico">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.0/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/he@1.2.0/he.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/blowsie/Pure-JavaScript-HTML5-Parser@master/htmlparser.min.js"></script>
+	</head>
+	<body>
+		<h1 class="headborder">
+			<img src="./assets/img/favicon.png" width="36" height="36">
+			Shocktalk
+		</h1>
+		<p class="contentborder">
+			The Shocktalk server's port is
+			<strong>
+				<script src="./assets/js/js-getport.js" id="port"></script>
+				<noscript>undefined</noscript>
+			</strong>
+			<br />
+			<iframe src="./talkwindow.html" frameborder="0" width="700" height="500"></iframe>
+		</p>
+		<table class="fixed-under">
+			<tbody>
+				<tr>
+					<td class="fixed-content add-box contentborder">
+						<center>
+							<div id="nuser">
+								New user: <input type="text" maxlength="17" required="true" id="usrname"/><button onclick="newUserA();return true;">OK</button>
+							</div>
+							<div id="inpt" style="display: none">
+								<input type="text" required="true" id="cnte"/><button onclick="submitA();return true;">--></button>
+							</div>
+						</center>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<script src="./assets/js/main.js"></script>
+	</body>
+</html>

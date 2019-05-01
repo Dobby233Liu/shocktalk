@@ -1,0 +1,44 @@
+* {
+	font-family: "Segoe UI";
+}
+.contentborder {
+	border: 1px dashed #ccc!important;
+	padding: 14px;
+	border-radius: 16px!important;
+}
+.headborder {
+	border: 8px ridge #ccc!important;
+	padding: 6px;
+	border-radius: 8px!important;
+	background: grey;
+	color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-family: "Sitka Heading", "MS PGothic";
+}
+
+p, div {
+	font-weight: 40;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.fixed-under {
+	left: 0px;
+	bottom: 0px;
+	position: fixed;
+	z-index: 5000;
+	width: 100%;
+	padding: 4px;
+}
+.fixed-content {
+	vertical-align: top;
+}
+.add-box {
+	background: grey;
+	color: white;
+	padding: 8px;
+}
