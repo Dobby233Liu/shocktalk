@@ -27,7 +27,8 @@ function isXile(str){
 		zstr.indexOf("xi") >= 0// &&
 		// zstr.indexOf("le") >= 0
 		) ||
-		zstr.indexOf("汐") >= 0
+		zstr.indexOf("汐") >= 0 ||
+		zstr.indexOf("tsk") >= 0
 	)
 }
 function checkXi(xi){
