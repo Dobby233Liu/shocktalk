@@ -46,7 +46,7 @@ function checkXi(xi){
 			break;
 		default:
 			if (txi >= 9)
-				window.alwaysxi = 0;
+				window.alwaysxi = 2;
 			break;
 	}
 }
